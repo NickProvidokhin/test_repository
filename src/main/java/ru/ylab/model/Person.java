@@ -6,9 +6,10 @@ import lombok.*;
 @AllArgsConstructor
 @Data
 public class Person {
-    long id;
-    String name;
-    String lastName;
-    String login;
-    String password;
+    private long id;
+    private String name;
+    private String lastName;
+    private String login;
+    private String password;
+    private boolean isAdmin;
 }
